@@ -13,7 +13,7 @@
 }
 
 .banner-text {
-    margin: 190px 400px 50px 200px;
+    margin: 190px 100px 150px 150px;
 }
 
 .flower-img {
@@ -21,7 +21,7 @@
     height: 800px;
     flex-shrink: 0;
     margin-top: 50px;
-    margin-right: 40px;
+    margin-right: 140px;
 }
 
 
@@ -52,4 +52,132 @@
     gap: 10px;
     border-radius: 8px;
     background: #E55473;
+}
+
+/* sign-up section */
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.off-section {
+    color: #E55473;
+}
+
+.sign-up-heading {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sign-up-description {
+
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.sign-up-img {
+    margin: 100px 400px;
+}
+
+.sign-up-writting {
+    margin-left: 250px;
+
+}
+
+/* instragram-section */
+
+.instagram-section-img {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.instagram-writing {
+
+    margin-top: 100px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.instagram-heading {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.instagram-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+
+    margin-top: 30px;
+}
+
+
+/* footer section */
+.footer {
+    background: #111010;
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    margin-top: 100px;
+}
+
+.footer-flower-shop {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+
+}
+
+.flower-color {
+    color: #E55473;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
