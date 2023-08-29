@@ -440,21 +440,31 @@
 
 .purches {
     margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
 }
 
+
 .Expire-date {
-    color: #902304;
+    color: #e33100;
     margin: 10px;
 }
 
 .placeholder {
     margin-top: 2px;
     height: 30px;
-    width: 200px;
+    width: 350px;
     border-radius: 70px rgb(125, 122, 122);
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
+
+.cats-picture h3 {
+    text-align: center;
+}
+
+
 
 /* footer section --------------------
 ----------------------------------------
